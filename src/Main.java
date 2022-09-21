@@ -71,5 +71,18 @@ public class Main {
 
         System.out.println("Nos iniciamos en git");
 
+
+        int[] nu = {2, 34, 6, 5, 4};
+
+        int minim = nu[0];
+        int secondMinim = nu[0];
+
+        for (int i = 0; i < nu.length;i++){
+            if (minim > nu[i]) {
+                minim = nu[i];
+            }
+        }
+
     }
+
 }
